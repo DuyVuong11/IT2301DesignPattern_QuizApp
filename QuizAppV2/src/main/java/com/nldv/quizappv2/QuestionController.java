@@ -6,19 +6,12 @@ package com.nldv.quizappv2;
 
 import com.nldv.pojo.Category;
 import com.nldv.services.CategoryServices;
-import com.nldv.ultis.JdbcConnector;
+
 import java.net.URL;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.ResourceBundle;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
-
 import javafx.fxml.Initializable;
 import javafx.scene.control.ComboBox;
 

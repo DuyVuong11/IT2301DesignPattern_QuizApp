@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
@@ -12,5 +13,6 @@
       <Button mnemonicParsing="false" onAction="#handleQuestionExam" styleClass="Button" text="Thi" />
       <Button mnemonicParsing="false" onAction="#handleSignIn" styleClass="Button" text="Dang ky " />
       <Button mnemonicParsing="false" onAction="#handleLogIn" styleClass="Button" text="Dang nhap " />
+      <ComboBox fx:id="cbThemes" onAction="#handleChangeThemes" prefWidth="150.0" styleClass="Button" />
    </children>
 </VBox>
