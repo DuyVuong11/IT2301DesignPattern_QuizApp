@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="302.0" styleClass="Main" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nldv.quizappv2.PrimaryController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="Quizz App" />
+      <Button mnemonicParsing="false" onAction="#handleQuestionManagement" styleClass="Button" text="Quan ly cau hoi" />
+      <Button mnemonicParsing="false" onAction="#handleQuestionPractice" styleClass="Button" text="Luyen tap " />
+      <Button mnemonicParsing="false" onAction="#handleQuestionExam" styleClass="Button" text="Thi" />
+      <Button mnemonicParsing="false" onAction="#handleSignIn" styleClass="Button" text="Dang ky " />
+      <Button mnemonicParsing="false" onAction="#handleLogIn" styleClass="Button" text="Dang nhap " />
+   </children>
+</VBox>
